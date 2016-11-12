@@ -53,6 +53,10 @@ app.get('/ui/main_bg.gif', function (req, res) {
 app.get('/ui/thinking-man.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thinking-man.png'));
 });
+ 
+app.get('ui/functions.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/functions.js));
+});
 
 
 
