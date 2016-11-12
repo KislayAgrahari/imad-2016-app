@@ -1,0 +1,207 @@
+body {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: arial, sans-serif;
+    color: #4c4c4c;
+    background: #e3c38e url('main_bg.gif') no-repeat center 0;
+	
+}
+a { color: #0252aa; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+/* Header */
+#header
+ {
+	 padding: 35px 37px 26px; 
+	 background: black; 
+	 height:100px;
+	 position: relative; margin-top: 30px; 
+	 margin-left:30px;
+	 margin-right:30px;
+	 }
+#logo a
+ {
+	 width: 230px;
+	 height: 50px;
+	 background: url('logo.png') no-repeat 0 0;
+	 display: block; }
+	 #navigation 
+	 {
+		 margin: 10px 30px 10px 30px;
+		 height: 61px;
+		 background:  #06c5fc; /*url('nav-bg.png') no-repeat 0 0;*/
+		 padding: 2px 2px;
+         border-style:double;		 
+		 }
+    #navigation li 
+	{
+		float: left;
+		display: inline; 
+		background: url('nav-sep.png') no-repeat right 0;
+		padding-right: 6px; 
+		}
+    #navigation li.last 
+	{ 
+	background: none; 
+	}
+    #navigation li a 
+	{ 
+	font-family: "Trebuchet MS", arial, sans-serif;
+	font-size: 18px; 
+	color: black;/*#591414*/; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	}
+    #navigation li a 
+	{
+		/*background: url('nav-item-left.png') no-repeat -4000px 0;*/ 
+		display: inline; float: left;
+		}
+    #navigation li a span 
+	{ 
+	line-height: 50px; 
+	}
+    #navigation li a span 
+	{
+		height: 53px; 
+		position: relative; 
+		margin-right: 6px;
+		padding-right: 44px; 
+		padding-left: 44px;
+		/*background:url('nav-item-right.png') no-repeat -4000px 0;*/
+		display: inline;
+		float: left; 
+		}
+    #navigation li a:hover :not(.active)
+	{ 
+	background-position: 0 0;
+     background-color:black;	
+	color: #fff; 
+	text-decoration: none;
+	}
+	#navigation li a:hover {
+		background-color:black;
+	}
+	}
+    #navigation li a:hover span
+	{
+		background-position: right 0;
+		}
+#footer{
+	background-color:black;
+	color:#06c5fc;
+	clear:both;
+    text-align:center;
+    padding: 5px;
+}
+#section
+{
+	width: 100%;
+	/*height:435px;*/
+}
+#search { float:right; padding:50px 11px 0 0; }
+/*#search fieldset { float:right; }
+*/#search .field { background:white; color:#666; border:1px solid #ccc; padding:6px; width:201px; float:left; margin-right:9px; }
+#search .submit { width:72px; height:29px; line-height:29px; padding-bottom:2px; text-align:center; background:#06c5fc; border:0; cursor:pointer; color:black; float:left; }
+#sec{
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin-left:70%;
+	
+}
+#sec.choose  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#sec.log{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+sec.log:hover {
+    background-color: #45a049;
+}
+#think{
+	width:50%;
+	
+	
+}
+#sign a:link, a:visited {
+    background-color: #06c5fc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width:300px;
+	
+}
+
+
+#sign a:hover, a:active {
+    background-color: black;
+}
+/* Slider */
+#slider { width: 1200px; height: 300px; padding: 37px 3px 41px; position: relative; background: url('123.jpg') no-repeat 0 0; margin-left: 65px; margin-right: 8px; }
+#slider .jcarousel-clip,
+#slider ul,
+#slider ul li { width: 1200px; height: 500px; overflow: hidden; position: relative; }
+#slider ul li { float: left; display: inline; }
+#slider ul li img { float: left; display: inline; padding-left: 36px; }
+#slider ul li .slide-entry { float: right; display: inline; width: 412px; color: #fff; padding-top: 18px; padding-right: 65px; }
+#slider ul li .slide-entry h2 { font-family: Georgia, arial, sans-serif; font-size: 34px; font-style: italic; line-height: 38px; padding-bottom: 17px; }
+#slider ul li .slide-entry p { font-size: 14px; padding-bottom: 17px; padding-left: 1px; }
+#slider ul li .button { width: 156px; height: 43px; display: block; font-size: 0; line-height: 0; text-indent: -4000px; background: url('button.png') no-repeat 0 0; }
+#slider ul li .button:hover { background-position: 0 -43px; }
+
+#slider .jcarousel-prev,
+#slider .jcarousel-next { font-size: 0; line-height: 0; text-indent: -4000px; width: 37px; height: 27px; position: absolute; bottom: 7px; cursor: pointer; }
+#slider .jcarousel-prev { background: url('slider-nav-left.png') no-repeat 0 0; right: 69px; }
+#slider .jcarousel-next { background: url('slider-nav-right.png') no-repeat 0 0; right: 32px; }
+#slider .carousel-active { background-position: 0 -27px; }
+
+
+#article{
+	background-color:#06c5fc ;
+	margin-left:20px;
+	margin-right:20px;
+	height:30%;
+	text-align:center;
+	
+}
+#article h1{
+	text:bold;
+	color:white;
+}
+#secc{
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin-left:25%;
+	margin-right:25%;
+	
+	
+}
+#hello h1{
+	text-align:center;
+}
