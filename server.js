@@ -53,9 +53,16 @@ app.get('/ui/main_bg.gif', function (req, res) {
 app.get('/ui/thinking-man.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thinking-man.png'));
 });
+ app.get('ui/jquery-1.6.2.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/jquery-1.6.2.min.js'));
+});
+app.get('ui/jquery.jcarousel.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/jquery.jcarousel.min.js'));
+});
+
  
 app.get('ui/functions.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/functions.js));
+  res.sendFile(path.join(__dirname, 'ui/functions.js'));
 });
 
 
