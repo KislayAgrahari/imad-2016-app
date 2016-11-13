@@ -15,7 +15,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'kissintern.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'newp.html'));
 });
 
 //var pool=new pool(config);
