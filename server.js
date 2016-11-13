@@ -31,21 +31,21 @@ app.get('/', function (req, res) {
 //});
 
 
-app.get('/ui/kissintern.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'kissintern.html'));
+app.get('/ui/newp.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'newp.html'));
 });
 
-app.get('/ui/intern.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'intern.css'));
+app.get('/ui/stylee.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'stylee.css'));
  
 
 });
-app.get('/ui/login.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+app.get('/ui/logini.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'logini.html'));
 });
 
-app.get('/ui/hhhh.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'hhhh.png'));
+app.get('/ui/456.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '456.jpg'));
 });
 app.get('/ui/main_bg.gif', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main_bg.gif'));
@@ -53,16 +53,16 @@ app.get('/ui/main_bg.gif', function (req, res) {
 app.get('/ui/thinking-man.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'thinking-man.png'));
 });
- app.get('ui/jquery-1.6.2.min.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/jquery-1.6.2.min.js'));
+ app.get('/ui/profile.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui','profile.html'));
 });
-app.get('ui/jquery.jcarousel.min.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/jquery.jcarousel.min.js'));
+app.get('/ui/signup.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui','signup.html'));
 });
 
  
-app.get('ui/functions.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/functions.js'));
+app.get('/ui/789.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui','789.jpg'));
 });
 
 
